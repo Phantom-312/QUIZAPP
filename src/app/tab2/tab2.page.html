@@ -1,19 +1,122 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+
+
+
+
+<ion-header >
+  <ion-toolbar class="toolbar">
     <ion-title>
-      Tab 2
+      <ion-breadcrumb  href="#electronics"><ion-icon name="chevron-back-outline" size="large" ></ion-icon></ion-breadcrumb>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-<div class="animate-me">
-  <ion-button expand="fullscreen" (click)="callAnime()">Anime.js</ion-button>
-  <!-- <ion-button expand="block" (click)="doMagic()">Magic CSS</ion-button>
-  <ion-button expand="block" (click)="animateItems()">Anime.css</ion-button>
-  <ion-button expand="block" (click)="bounce()">Bounce</ion-button>
-  <ion-button expand="block" (click)="flip()">Number Flip</ion-button> -->
 
-</div>
+
+
+  <ion-grid>
+    <ion-row>
+        <ion-col >
+
+             <div>
+
+                <ion-chip  style="width: 30px; background-color:#000000; position: relative;">
+                    <ion-label>1</ion-label>
+                  </ion-chip>
+
+                  <ion-chip  style="width: 30px; background-color:#000000; ">
+                    <ion-label>2</ion-label>
+                  </ion-chip>
+
+                  <ion-chip  style="width: 30px; background-color:#000000; ">
+                    <ion-label>3</ion-label>
+                  </ion-chip>
+
+                  <ion-chip  style="width: 30px; background-color:#000000; ">
+                    <ion-label>4</ion-label>
+                  </ion-chip>
+
+                  <ion-chip  style="width: 30px; background-color:#000000; ">
+                    <ion-label>5</ion-label>
+                  </ion-chip>
+
+                  <ion-chip  style="width: 30px; background-color:#000000; ">
+                    <ion-label>6</ion-label>
+                  </ion-chip>
+
+
+        </div>
+
+
+
+
+
+        <ion-card class="card">
+
+
+
+                <ion-item  size-md="6" offset-md="3">
+                    <ion-label slot="start">
+                      <h1 style="font-family: 'Arima Madurai', cursive;" >1.</h1>
+                    </ion-label>
+
+                  </ion-item>
+
+                    <ion-item size-md="6" offset-md="3">
+                        <h3 style="font-family: 'Fredoka One', cursive;"><strong>First Man To Go In Space?</strong></h3>
+                    </ion-item>
+
+
+
+                    <div class="button-div" >
+
+                      <div class="buttons , button1" >
+                        <ion-button color="light" shape="round" expand="full" expand="full" fill="outline" >1.Neil Armstrong
+                        <!-- <input class="pricing" type="checkbox" id="pricing" name="pricing" style="visibility: hidden;"> -->
+                      <!-- <label for="pricing"><span class="block-diff">1. ALMOND</span></label> -->
+                    </ion-button>
+                    </div>
+
+                    <div class="buttons" >
+                      <ion-button color="light" shape="round" expand="full" expand="full" fill="outline" >2.Yuri Gagarian
+                      <!-- <input class="pricing" type="checkbox" id="pricing" name="pricing" style="visibility: hidden;"> -->
+                    <!-- <label for="pricing"><span class="block-diff">2. CASHEW</span></label> -->
+                  </ion-button>
+                  </div>
+
+                  <div class="buttons" >
+                    <ion-button color="light" shape="round" expand="full" expand="full" fill="outline" >3.Buzz Aldrin
+                    <!-- <input class="pricing" type="checkbox" id="pricing" name="pricing" style="visibility: hidden;"> -->
+                  <!-- <label for="pricing"><span class="block-diff1">3. BADAM</span></label> -->
+                </ion-button>
+                </div>
+
+                <div class="buttons" >
+                  <ion-button color="light" shape="round" expand="full" expand="full" fill="outline" >4.Nikhita Kozlov
+                  <!-- <input class="pricing" type="checkbox" id="pricing" name="pricing" style="visibility: hidden;"> -->
+                <!-- <label for="pricing"><span class="block-diff1">4. KHISMISH</span></label> -->
+              </ion-button>
+              </div>
+
+
+
+
+
+                    </div>
+
+
+                  </ion-card>
+
+
+
+
+
+
+        </ion-col>
+    </ion-row>
+</ion-grid>
+
 
 </ion-content>
+
+
