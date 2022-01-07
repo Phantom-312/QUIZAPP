@@ -1,8 +1,14 @@
 <ion-header >
   <ion-toolbar class="toolbar">
-    <ion-title>
-      <ion-breadcrumb  href="#electronics"><ion-icon name="chevron-back-outline" size="large" ></ion-icon></ion-breadcrumb>
-    </ion-title>
+
+      <ion-breadcrumb  href="#electronics"><ion-icon slot="start" name="chevron-back-outline" size="large" ></ion-icon></ion-breadcrumb>
+
+
+
+
+    <ion-button slot="end" shape="round" fill="outline" color="light" >SUBMIT</ion-button>
+
+
   </ion-toolbar>
 </ion-header>
 
@@ -14,29 +20,29 @@
     <ion-row>
         <ion-col >
 
-             <div>
+             <div class="chip-div" >
 
-                <ion-chip  style="width: 30px; background-color:#000000; position: relative;">
+                <ion-chip  class="chip" >
                     <ion-label>1</ion-label>
                   </ion-chip>
 
-                  <ion-chip  style="width: 30px; background-color:#000000; ">
+                  <ion-chip class="chip" >
                     <ion-label>2</ion-label>
                   </ion-chip>
 
-                  <ion-chip  style="width: 30px; background-color:#000000; ">
+                  <ion-chip class="chip" >
                     <ion-label>3</ion-label>
                   </ion-chip>
 
-                  <ion-chip  style="width: 30px; background-color:#000000; ">
+                  <ion-chip class="chip" >
                     <ion-label>4</ion-label>
                   </ion-chip>
 
-                  <ion-chip  style="width: 30px; background-color:#000000; ">
+                  <ion-chip class="chip" >
                     <ion-label>5</ion-label>
                   </ion-chip>
 
-                  <ion-chip  style="width: 30px; background-color:#000000; ">
+                  <ion-chip class="chip" >
                     <ion-label>6</ion-label>
                   </ion-chip>
 
@@ -51,44 +57,41 @@
 
 
 
-                <ion-item  size-md="6" offset-md="3">
-                    <ion-label slot="start">
-                      <h1 style="font-family: 'Arima Madurai', cursive;" >1.</h1>
-                    </ion-label>
 
-                  </ion-item>
+                        <h3 class="question">1.</h3>
 
-                    <ion-item size-md="6" offset-md="3">
-                        <h3 style="font-family: 'Fredoka One', cursive;"><strong> Your favorite dry fruit?</strong></h3>
-                    </ion-item>
+                        <br>
+
+                        <h3 class="question"  ><strong> Your favorite dry fruit?</strong></h3>
+
 
 
 
                     <div class="button-div" >
 
                       <div class="buttons , button1" >
-                        <ion-button color="light" shape="round" expand="full" expand="full" fill="outline" >1.KAJU
+                        <ion-button  color="medium" shape="round" expand="full" expand="full" fill="outline"  > <strong class="font-style">A. KAJU</strong>
                         <!-- <input class="pricing" type="checkbox" id="pricing" name="pricing" style="visibility: hidden;"> -->
                       <!-- <label for="pricing"><span class="block-diff">1. ALMOND</span></label> -->
                     </ion-button>
                     </div>
 
                     <div class="buttons" >
-                      <ion-button color="light" shape="round" expand="full" expand="full" fill="outline" >2.KISHMISH
+                      <ion-button color="medium" shape="round" expand="full" expand="full" fill="outline" ><strong class="font-style">B. BADAM</strong>
                       <!-- <input class="pricing" type="checkbox" id="pricing" name="pricing" style="visibility: hidden;"> -->
                     <!-- <label for="pricing"><span class="block-diff">2. CASHEW</span></label> -->
                   </ion-button>
                   </div>
 
                   <div class="buttons" >
-                    <ion-button color="light" shape="round" expand="full" expand="full" fill="outline" >3.BADAM
+                    <ion-button color="medium" shape="round" expand="full" expand="full" fill="outline" ><strong class="font-style">C. PISTA</strong>
                     <!-- <input class="pricing" type="checkbox" id="pricing" name="pricing" style="visibility: hidden;"> -->
                   <!-- <label for="pricing"><span class="block-diff1">3. BADAM</span></label> -->
                 </ion-button>
                 </div>
 
                 <div class="buttons" >
-                  <ion-button color="light" shape="round" expand="full" expand="full" fill="outline" >4.PISTA
+                  <ion-button color="medium" shape="round" expand="full" expand="full" fill="outline" ><strong class="font-style">D. HAZLENUT</strong>
                   <!-- <input class="pricing" type="checkbox" id="pricing" name="pricing" style="visibility: hidden;"> -->
                 <!-- <label for="pricing"><span class="block-diff1">4. KHISMISH</span></label> -->
               </ion-button>
